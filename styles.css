@@ -121,6 +121,36 @@ button:hover {
     margin-top:30px
 }
 
+form {
+    background-color: black;
+    padding:50px;
+    margin:50px;
+    display:flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.contact {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-self: center;
+    margin:10px;
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius: 5px;
+}
+
+.address {
+    color:black;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    border-radius:3px;
+    align-self: center;
+    margin-left:100px
+    
+}
+.address > img {
+    height:50px
+}
 footer {
     padding: 20px;
     margin:30px;

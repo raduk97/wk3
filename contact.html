@@ -1,38 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-</head>
-<body>
-    <!--Place Header here-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="navigation_bar">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
     <h1>Contact Us</h1>
     <main>
-        <section class="contact">
-            <img src="" alt="">
-        <form>
+      <section>
+        <div class="contact">
+          <form>
             <label for="Name">Name:</label>
-            <input type="text" name="name" id="name" required>
+            <input type="text" name="name" id="name" required /><br>
 
             <label for="phone_number">Phone Number:</label>
-            <input type="number" name="phone_number" id="phone_number" placeholder="0712345678" required>
+            <input
+              type="number"
+              name="phone_number"
+              id="phone_number"
+              placeholder="0712345678"
+              required
+            /><br>
 
             <label for="email">Email:</label>
-            <input type="email" name="email" id="email" required placeholder="example@email.com">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="example@email.com"
+            /><br>
 
             <label for="message">Comment:</label>
-            <textarea name="message" id="message"></textarea>
-            
-            <input type="submit" value="Submit">
-        </form>
-        <div class="address">
-            <img src="" alt="Map Logo"><p>Address: P.O. Box 40100, Nairobi </p>
-            <img src="" alt="Phone Logo"><p>Phone Number: 0712345678</p>
-            <img src="" alt="Email Logo"><p>Email: example@email.com</p>
+            <textarea name="message" id="message" rows="5" cols="60"></textarea><br>
+
+            <input type="submit" value="Submit" />
+          </form>
+          <div class="address">
+            <img
+              src="https://img.icons8.com/?size=100&id=BcL4mksn90LQ&format=png&color=000000"
+              alt="Map Logo"
+            />
+            <p>P.O. Box 40100, Nairobi</p>
+            <img
+              src="https://img.icons8.com/?size=100&id=jShwZ2RCyPSO&format=png&color=000000"
+              alt="Phone Logo"
+            />
+            <p>0712345678</p>
+            <img
+              src="https://img.icons8.com/?size=100&id=12623&format=png&color=000000"
+              alt="Email Logo"
+            />
+            <p>example@email.com</p>
+          </div>
         </div>
-        </section>
+      </section>
     </main>
-    <!--Place footer here-->
-</body>
+    <footer>
+      <p>&copy; Made by Raduk</p>
+      <div class="socials">
+        <a href="mailto:example@gmail.com"
+          ><img
+            src="https://img.icons8.com/?size=100&id=12623&format=png&color=000000"
+            alt="Email Logo"
+          />
+          <p>Email</p></a
+        >
+
+        <a href="https://www.linkedin.com"
+          ><img
+            src="https://img.icons8.com/?size=100&id=8808&format=png&color=000000"
+            alt="LinkedIn Logo"
+          />
+          <p>LinkedIn</p></a
+        >
+
+        <a href="https://www.facebook.com"
+          ><img
+            src="https://img.icons8.com/?size=100&id=118467&format=png&color=000000"
+            alt="Facebook Logo"
+          />
+          <p>Facebook</p></a
+        >
+
+        <a href="https://www.youtube.com"
+          ><img
+            src="https://img.icons8.com/?size=100&id=37326&format=png&color=000000"
+            alt="YouTube Logo"
+          />
+          <p>YouTube</p></a
+        >
+
+        <a href="https://www.github.com"
+          ><img
+            src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000"
+            alt="GitHub Logo"
+          />
+          <p>GitHub</p></a
+        >
+
+        <button><a id="learn_more" href="about.html">Learn More</a></button>
+      </div>
+    </footer>
+  </body>
 </html>
