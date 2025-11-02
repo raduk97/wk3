@@ -62,7 +62,6 @@ button {
 button:hover {
   background-color: blueviolet;
   border: none;
-  border-radius: 0px;
 }
 
 .add_info {
@@ -124,20 +123,19 @@ button:hover {
   font-style: italic;
   
 }
-
 .name {
-  font-size: 50px; 
+  font-size: 35px; 
   font-style: italic; 
   text-decoration: underline;
   text-decoration-line: overline;
-  transition: 0.3s;
-  color:
+  transition: 2s;
 }
+
 .name:hover{
-  text-decoration: underline #660066;
+  text-decoration: underline 	#efbbff;
   text-decoration-line:underline;
-  color:#660066;
-  
+  color:	#efbbff;
+  transition: 2s;
   
 }
 .history {
@@ -186,6 +184,16 @@ form {
   align-self: center;
   margin-left: 100px;
 }
+
+.label{
+  color:black;
+  transition: 1s;
+  
+}
+.label:hover {
+  color:white;
+  transition: 1s;
+}
 .address > img {
   height: 50px;
 }
@@ -196,27 +204,29 @@ footer {
 }
 
 .socials,
-.socials a {
-  padding: 10px;
-  justify-content: center;
+.socials p {
+  justify-content: space-between;
   font-size: 20px;
-  color: #d896ff;
+  color: #be29ec;
   display: flex;
   flex-direction: row;
+  
 }
 .socials img {
   height: 50px;
 }
 .socials button {
   margin-left: 30px;
+  border:none;
 }
 .socials button a {
   color: black;
+  
 }
 .socials button a:hover {
-  color: white;
-  font-weight: bold;
+  color: blue;
 }
 .socials button:hover {
-  background-color: grey;
+  background-color: blueviolet;
+  
 }
