@@ -66,6 +66,31 @@ button:hover {
     font-style: italic;
 }
 
+.portfolio {
+    text-align: center;
+    padding: 20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+.portfolio-item{
+    margin: 20px;
+}
+.portfolio-item > img {
+    height: 200px
+}
+.title{
+    margin: 10px;
+    padding: 10px;
+    color:black;
+    font-size:25px;
+    text-align: center;
+}
+.heading {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
 footer {
     padding: 20px;
     margin:30px;
