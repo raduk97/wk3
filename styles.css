@@ -19,7 +19,6 @@ a {
 }
 a:hover {
   color: blue;
-  font-size: 27px;
 }
 
 .navigation_bar {
@@ -207,7 +206,7 @@ footer {
 .socials p {
   justify-content: space-between;
   font-size: 20px;
-  color: #be29ec;
+  color: black  ;
   display: flex;
   flex-direction: row;
   
